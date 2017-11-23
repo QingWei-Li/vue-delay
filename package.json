@@ -10,6 +10,10 @@
     "gh": "poi build example && gh-pages -d dist",
     "build": "poi build --component VueDelay src"
   },
+  "poi": {
+    "homepage": "./",
+    "removeDist": true
+  },
   "keywords": ["vue", "delay", "component"],
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
   "license": "MIT",
