@@ -1,6 +1,6 @@
 {
   "name": "vue-delay",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Delay rendering component for Vue.js",
   "main": "dist/vue-delay.js",
   "module": "src/index.js",
@@ -14,7 +14,11 @@
     "homepage": "./",
     "removeDist": true
   },
-  "keywords": ["vue", "delay", "component"],
+  "keywords": [
+    "vue",
+    "delay",
+    "component"
+  ],
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
   "license": "MIT",
   "devDependencies": {
