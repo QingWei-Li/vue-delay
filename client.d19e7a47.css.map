@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./example/app.vue"],"names":[],"mappings":"AACA,KACE,yBACA,YACA,mBACA,YACA,iBAAmB","file":"client.d19e7a47.css","sourcesContent":["\n.box {\n  border: 1px solid #f0f0f0;\n  width: 200px;\n  margin-bottom: 40px;\n  height: 80px;\n  text-align: center;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./example/app.vue"],"sourceRoot":""}
