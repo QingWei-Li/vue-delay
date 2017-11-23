@@ -8,7 +8,7 @@
     "test": "echo ✌️",
     "dev": "poi example",
     "gh": "poi build example && gh-pages -d dist",
-    "build": "poi build --component VueDelay"
+    "build": "poi build --component VueDelay src"
   },
   "keywords": ["vue", "delay", "component"],
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
