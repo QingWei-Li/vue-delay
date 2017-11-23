@@ -5,7 +5,7 @@
   "main": "dist/vue-delay.js",
   "module": "src/index.js",
   "scripts": {
-    "test": "echo ✌️",
+    "test": "npm run build && echo ✌️",
     "dev": "poi example",
     "gh": "poi build example && gh-pages -d dist",
     "build": "poi build --component VueDelay src"
@@ -14,11 +14,7 @@
     "homepage": "./",
     "removeDist": true
   },
-  "keywords": [
-    "vue",
-    "delay",
-    "component"
-  ],
+  "keywords": ["vue", "delay", "component"],
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
   "license": "MIT",
   "devDependencies": {
