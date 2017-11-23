@@ -4,6 +4,8 @@
   "description": "Delay rendering component for Vue.js",
   "main": "dist/vue-delay.js",
   "module": "src/index.js",
+  "repository": "qingwei-li/vue-delay",
+  "homepage": "https://cinwell.com/vue-delay/",
   "scripts": {
     "test": "npm run build && echo ✌️",
     "dev": "poi example",
