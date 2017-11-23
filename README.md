@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/vue-delay.svg?style=flat-square)](https://www.npmjs.com/package/vue-delay)
 ![vue](https://img.shields.io/badge/vue-2.x-4fc08d.svg?colorA=2c3e50&style=flat-square)
-[![](https://img.shields.io/badge/%24-donate-green.svg)](https://github.com/QingWei-Li/donate)
+[![](https://img.shields.io/badge/%24-donate-green.svg?style=flat-square)](https://github.com/QingWei-Li/donate)
 
 > 🐌 Delay rendering component for Vue.js
 
