@@ -16,10 +16,20 @@ export default {
     waiting: true
   }),
 
+  computed: {
+    ms() {
+      if (this.from) {
+          return this.from - Date.now() + this.wait;
+      } else {
+          return this.wait;
+      }
+    }
+  },
+
   created() {
     this.timer = setTimeout(() => {
       this.waiting = false
-    }, this.from - Date.now() + this.wait)
+    }, this.ms)
   },
 
   destroyed() {
