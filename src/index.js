@@ -12,6 +12,16 @@ export default {
     }
   },
 
+  computed: {
+    ms() {
+      if (this.form) {
+        return this.from - Date.now() + this.wait;
+      } else {
+        return this.wait;
+      }
+    }
+  },
+
   data: () => ({
     waiting: true
   }),
@@ -19,7 +29,7 @@ export default {
   created() {
     this.timer = setTimeout(() => {
       this.waiting = false
-    }, this.from - Date.now() + this.wait)
+    }, this.ms)
   },
 
   destroyed() {
