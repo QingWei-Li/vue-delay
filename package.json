@@ -21,6 +21,6 @@
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "poi": "^9.5.4"
+    "poi": "^12.10.3"
   }
 }
